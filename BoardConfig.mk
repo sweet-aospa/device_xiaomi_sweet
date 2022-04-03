@@ -20,6 +20,9 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 BOARD_VENDOR := xiaomi
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/sweet-miuicamera/products/board.mk
+
 DEVICE_PATH := device/xiaomi/sweet
 
 # Inherit from proprietary files
