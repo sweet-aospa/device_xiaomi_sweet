@@ -251,6 +251,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
